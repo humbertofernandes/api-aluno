@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS aluno;
+
+CREATE TABLE aluno
+(
+    id    BIGINT(20) AUTO_INCREMENT PRIMARY KEY,
+    nome  VARCHAR(250) NOT NULL,
+    idade INT(11)      NOT NULL
+);
